@@ -1,4 +1,4 @@
-# 🛡️ 个人专属文件机器人 (aiogram)
+# 🛡️ 个人专属TG机器人 (aiogram)
 
 一个基于 **[aiogram 3.x](https://docs.aiogram.dev/)** 构建的 **私有 Telegram 文件存储机器人**。  
 它只允许指定的 Telegram 用户发送消息、图片、视频和文件，并自动保存到本地文件夹中。  
