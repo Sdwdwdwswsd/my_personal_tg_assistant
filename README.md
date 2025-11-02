@@ -72,7 +72,7 @@ Command	Description
 * When you send a document → saved using its original name and MIME extension
 * Everything is organized in your local_storage/ folder
 
-## 🧩 Example Folder Structure
+## 🧩 Example Folder Structure in Server
 ```
 secure_file_bot_aiogram/
 ├── bot.py
@@ -84,4 +84,4 @@ secure_file_bot_aiogram/
     ├── 20251103_141223.mp4
     └── ...
 ```
-
+![screen shot](screenshot.jpeg)
