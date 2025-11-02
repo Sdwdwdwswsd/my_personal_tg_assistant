@@ -1,9 +1,11 @@
-# 🛡️ Secure File Bot (aiogram)
+# 🛡️ 个人专属文件机器人 (aiogram)
 
 一个基于 **[aiogram 3.x](https://docs.aiogram.dev/)** 构建的 **私有 Telegram 文件存储机器人**。  
 它只允许指定的 Telegram 用户发送消息、图片、视频和文件，并自动保存到本地文件夹中。  
 
 你可以通过 Telegram 命令来 **搜索、获取、删除、概览** 文件，未来还可集成 OpenAI 或第三方 API。
+
+[如何申请Telegram机器人](https://core.telegram.org/bots/tutorial)
 
 ---
 
@@ -42,7 +44,7 @@ STORAGE_DIR = "local_storage"          # 本地文件存储目录
 
 ## 🚀 启动机器人
 ```
-python secure_file_bot_aiogram.py
+python bot.py
 ```
 
 启动后，在 Telegram 中向机器人发送：
@@ -73,7 +75,7 @@ python secure_file_bot_aiogram.py
 ## 🧩 项目结构示例
 ```
 secure_file_bot_aiogram/
-├── secure_file_bot_aiogram.py
+├── bot.py
 ├── requirements.txt
 ├── README.md
 └── local_storage/
