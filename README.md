@@ -1,4 +1,5 @@
-# 🛡️ Personal Secure File Bot (aiogram)
+# 🛡️ Personal Secure File Bot (aiogram)  
+[中文说明](README_cn.md)
 
 A private **Telegram file storage bot** built with **[aiogram 3.x](https://docs.aiogram.dev/)**.  
 It securely accepts messages, pictures, videos, and documents **only from a specific Telegram user**,  
