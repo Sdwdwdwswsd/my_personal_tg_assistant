@@ -1,10 +1,12 @@
-# 🛡️ Secure File Bot (aiogram)
+# 🛡️ Personal Secure File Bot (aiogram)
 
 A private **Telegram file storage bot** built with **[aiogram 3.x](https://docs.aiogram.dev/)**.  
 It securely accepts messages, pictures, videos, and documents **only from a specific Telegram user**,  
 then saves them to a local storage folder.  
 
 You can search, retrieve, delete, and summarize your stored files — all via Telegram commands.
+
+[How to create a telegram bot](https://core.telegram.org/bots/tutorial)
 
 ---
 
@@ -43,7 +45,7 @@ STORAGE_DIR = "local_storage"          # Folder where files are saved
 
 ## 🚀 Run the Bot
 ```
-python secure_file_bot_aiogram.py
+python bot.py
 ```
 Once running, open your bot in Telegram and type:
 ```
@@ -72,7 +74,7 @@ Command	Description
 ## 🧩 Example Folder Structure
 ```
 secure_file_bot_aiogram/
-├── secure_file_bot_aiogram.py
+├── bot.py
 ├── requirements.txt
 ├── README.md
 └── local_storage/
